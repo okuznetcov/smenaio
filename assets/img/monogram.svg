@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="186px" height="229px" viewBox="0 0 186 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#333333">
+            <g id="icon" transform="translate(0.000000, 1.000000)">
+                <polygon id="Triangle" points="0 0 186.45364 64.7496487 0 129.499297"></polygon>
+                <polygon id="Triangle" transform="translate(93.021551, 162.998389) scale(-1, 1) translate(-93.021551, -162.998389) " points="0.0215507267 98.2487402 186.021551 162.998389 0.0215507267 227.748038"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

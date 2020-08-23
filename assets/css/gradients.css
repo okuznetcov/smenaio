@@ -1,0 +1,68 @@
+.lab-lecture-seminar {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 10%, rgba(23,162,184,1) 50%, rgba(255,193,7,1) 93%);
+}
+
+.lab-seminar-lecture {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 10%, rgba(255,193,7,1) 51%, rgba(23,162,184,1) 92%);
+}
+
+.lecture-lab-seminar {
+  background: linear-gradient(0deg, rgba(23,162,184,1) 9%, rgba(220,53,69,1) 51%, rgba(255,193,7,1) 91%);
+}
+
+.lecture-seminar-lab {
+  background: linear-gradient(0deg, rgba(23,162,184,1) 9%, rgba(255,193,7,1) 51%, rgba(220,53,69,1) 92%);
+}
+
+.seminar-lab-lecture {
+  background: linear-gradient(0deg, rgba(255,193,7,1) 10%, rgba(220,53,69,1) 51%, rgba(23,162,184,1) 92%);
+}
+
+.seminar-lecture-lab {
+  background: linear-gradient(0deg, rgba(255,193,7,1) 10%, rgba(23,162,184,1) 51%, rgba(220,53,69,1) 92%);
+}
+
+.test {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 12%, rgba(220,53,69,1) 25%, rgba(23,162,184,1) 25%, rgba(23,162,184,1) 75%, rgba(255,193,7,1) 75%);
+}
+
+.test-a {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 75%, rgba(23,162,184,1) 75%);
+}
+
+.lab {
+  background-color: #dc3545;
+}
+
+.lecture {
+  background-color: #17a2b8;
+}
+
+.seminar {
+  background-color: #ffc107;
+}
+
+.lab-lecture {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 21%, rgba(23,162,184,1) 82%);
+}
+
+.lab-seminar {
+  background: linear-gradient(0deg, rgba(220,53,69,1) 21%, rgba(255,193,7,1) 82%);
+}
+
+.seminar-lecture {
+  background: linear-gradient(0deg, rgba(255,193,7,1) 21%, rgba(23,162,184,1) 82%);
+}
+
+.seminar-lab {
+  background: linear-gradient(0deg, rgba(255,193,7,1) 21%, rgba(220,53,69,1) 82%);
+}
+
+.lecture-lab {
+  background: linear-gradient(0deg, rgba(23,162,184,1) 21%, rgba(220,53,69,1) 82%);
+}
+
+.lecture-seminar {
+  background: linear-gradient(0deg, rgba(23,162,184,1) 21%, rgba(255,193,7,1) 82%);
+}
+

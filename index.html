@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="смéна">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/gradients.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+<link rel="apple-touch-icon" href="/ios_icon.png">
+<link href="/floating-labels.css" rel="stylesheet">
+<link href="splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean border-bottom" style="padding-right: 16px;padding-left: 16px;">
+        <div class="container" id="navigation"><a class="navbar-brand" href="#" style="height: 40px;"><img class="d-flex align-items-center" src="assets/img/logo1 —%20копия.png" style="filter: blur(0px);"></a><button class="btn btn-primary btn-round btn-blue" type="button"><i class="fa fa-calendar"></i><span class="dayweek_selector ml-1">&nbsp;День</span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto"></ul>
+        </div>
+        <div><i class="fas fa-home ml-1 d-inline" id="homeicon" style="font-size: 25px;margin-right: 21px;"></i><i class="fa fa-search ml-1 d-inline text-muted" style="font-size: 25px;margin-right: 21px;"></i><i class="fa fa-gear ml-1 d-inline text-muted"
+                style="font-size: 25px;"></i></div>
+        </div>
+    </nav>
+    <div id="rasp_container" style="padding-top: 89px;">
+        <div class="container mainpage">
+            <div class="row float-none" style="filter: blur(0px);">
+                <div class="col-md-4 shadow-sm mb-5 bg-white rounded" style="padding-right: 0;padding-bottom: 10px;">
+                    <div class="week-mobile-placeholder"></div>
+                    <div style="padding-right: 15px;">
+                        <h3 class="mt-2" style="margin-top: 8px;padding-top: 6px;padding-bottom: 4px;">🚀 Расписание</h3>
+                    </div>
+                    <div id="rasp" class="overflow-auto" style="max-height: 400px;padding-left: -20px;">
+                        <div style="padding-right: 15px;">
+                            <div class="card border-white mb-2" style="background-color: rgb(230,230,230);">
+                                <div class="card-body border-white" style="padding: 15px;padding-right: 20px;padding-left: 20px;">
+                                    <div class="row" style="margin-bottom: 5px;">
+                                        <div class="col" style="height: 15px;width: 73px;max-width: 112px;">
+                                            <h6 class="text-muted" style="height: 16px;font-size: 14px;width: 138px;margin-top: 0px;">13:00 — 14:30</h6>
+                                        </div>
+                                        <div class="col" style="height: 22px;margin: -7px;margin-top: -6px;margin-left: 5px;"><span class="badge badge-danger mr-1" style="font-size: 12;">Лаба</span><span class="badge badge-primary" style="font-size: 12;">3-312</span></div>
+                                    </div>
+                                    <h5 class="card-title">Операционные системы реального времени</h5>
+                                    <h6 class="text-muted card-subtitle small-text">Титов Юрий Павлович</h6>
+                                </div>
+                            </div>
+                            <div class="card bg-light border-white mb-2">
+                                <div class="card-body border-white" style="padding: 15px;padding-right: 20px;padding-left: 20px;">
+                                    <div class="row" style="margin-bottom: 5px;">
+                                        <div class="col" style="height: 15px;width: 73px;max-width: 112px;">
+                                            <h6 class="text-muted" style="height: 16px;font-size: 14px;width: 138px;margin-top: 0px;">13:00 — 14:30</h6>
+                                        </div>
+                                        <div class="col" style="height: 22px;margin: -7px;margin-top: -6px;margin-left: 5px;"><span class="badge badge-danger mr-1" style="font-size: 12;">Лаба</span><span class="badge badge-primary" style="font-size: 12;">3-312</span></div>
+                                    </div>
+                                    <h5 class="card-title">Операционные системы реального времени</h5>
+                                    <h6 class="text-muted card-subtitle" style="font-size: 14px;">Титов Юрий Павлович</h6>
+                                </div>
+                            </div>
+                            <div class="card bg-light mb-2">
+                                <div class="card-body" style="padding: 10px;padding-right: 20px;padding-left: 20px;padding-top: 10px;">
+                                    <h6 class="text-muted card-subtitle" style="font-size: 14px;margin-top: 0px;">Физическая культура</h6>
+                                </div>
+                            </div>
+                            <div class="card bg-light border-white mb-2">
+                                <div class="card-body border-white" style="padding: 15px;padding-right: 20px;padding-left: 20px;">
+                                    <div class="row" style="margin-bottom: 5px;">
+                                        <div class="col" style="height: 15px;width: 73px;max-width: 112px;">
+                                            <h6 class="text-muted" style="height: 16px;font-size: 14px;width: 138px;margin-top: 0px;">13:00 — 14:30</h6>
+                                        </div>
+                                        <div class="col" style="height: 22px;margin: -7px;margin-top: -6px;margin-left: 5px;"><span class="badge badge-danger mr-1" style="font-size: 12;">Лаба</span><span class="badge badge-primary" style="font-size: 12;">3-312</span></div>
+                                    </div>
+                                    <h5 class="card-title">Операционные системы реального времени</h5>
+                                    <h6 class="text-muted card-subtitle" style="font-size: 14px;">Титов Юрий Павлович</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class="overflow-auto"></div></div>
+                <div class="col-md-8" id="cards1" style="background-color: transparent;">
+                    <div class="card text-white bg-dark border-dark mb-3 shadow">
+                        <div class="card-header d-lg-flex align-items-lg-center d-flex justify-content-between">
+                            <h6 class="mb-0 mt-0" style="height: 15px;">📚 Сейчас</h6>
+                            <h6 class="mt-0 mb-0" style="height: 15px;">Осталось:&nbsp; 1ч 23м</h6>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" id="active-lesson">Операционные системы реального времени</h4>
+                            <div class="card text-dark border-dark" style="background-color: #ffffff;margin-left: -21px;margin-right: -21px;margin-bottom: -21px;margin-top: 19px;">
+                                <div class="card-body" style="padding-top: 14px;"><span class="badge badge-primary mr-1" style="background-color: rgb(255,153,0);font-size: 12;"></span><span class="badge badge-danger mr-1" style="font-size: 12;">Лабораторная работа</span><span class="badge badge-primary mr-1"
+                                        style="background-color: rgb(255,153,0);font-size: 12;"></span><span class="badge badge-primary mr-1" style="background-color: rgb(255,153,0);font-size: 12;"></span><span class="badge badge-primary mr-1" style="font-size: 12;">3-312</span>
+                                    <div
+                                        class="row mb-3 mt-3" style="margin: 0;margin-bottom: 0;">
+                                        <div class="col" id="avatar" style="max-width: 50px!important;padding-right: 0px;padding-left: 0px;">
+                                            <div class="image-cropper"><img class="tutor-pic" src="assets/img/thumb-1.jpg"></div>
+                                        </div>
+                                        <div class="col tutor-col">
+                                            <h6 class="tutorname" style="color: rgb(33,37,41);">Титов Юрий Павлович</h6><button class="btn btn-link text-left about_tutor" type="button" style="margin: 0;padding-top: 0;margin-top: -20px;font-size: 14px;margin-left: -1px;">О преподавателе</button></div>
+                                        <div
+                                            class="col" style="display: table-cell;vertical-align: middle;max-width: 10px;margin-left: 0px;"><i class="fa fa-pencil-square-o" style="color: rgb(33,37,41);margin-top: 6px;"></i></div>
+                            </div>
+                            <div class="modal fade text-dark" role="dialog" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Титов Юрий Павлович</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                                        <div class="modal-body">
+                                            <p>The content of your modal.</p>
+                                        </div>
+                                        <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3"></div>
+                            <p class="small-text">4 незавершенных задачи&nbsp;</p><button class="btn btn-primary btn-sm mr-2" type="button">Добавить задачу</button><button class="btn btn-link mr-2" type="button">Все задачи</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col cards2" id="cards1">
+            <div class="card shadow-sm rounded border-light">
+                <div class="card border-0">
+                    <div class="card-body week-header">
+                        <h4 class="card-title friends-title">Неделя</h4>
+                        <h6 class="text-muted card-subtitle mb-2 small-text">21 сентября – 27 сентября&nbsp;</h6>
+                    </div>
+                </div>
+                <div class="d-xl-flex justify-content-xl-center graph">
+                    <div class="graph-separator first"></div>
+                    <div class="graph-separator six light"></div>
+                    <div class="graph-separator five light"></div>
+                    <div class="graph-separator third light"></div>
+                    <div class="graph-separator four light"></div>
+                    <div class="graph-separator second light"></div>
+                    <div class="bar-single">
+                        <div class="bar-col lessons-one-gradient" style="height: 30px;background-color: #55be24;"><small class="d-md-flex lessons-mark-chart">1</small></div><small class="text-muted graph-legend">Пн</small></div>
+                    <div class="bar-single">
+                        <div class="bar-col lecture-seminar" style="height: 60px;"><small class="d-md-flex lessons-mark-chart">2</small></div><small class="text-muted graph-legend">Вт</small></div>
+                    <div class="bar-single">
+                        <div class="bar-col lecture" style="height: 90px;"><small class="d-md-flex lessons-mark-chart">3</small></div><small class="text-muted graph-legend">Ср</small></div>
+                    <div class="bar-single">
+                        <div class="bar-col rounded-top today-col test" style="height: 120px;"><small class="d-md-flex lessons-mark-chart">4</small></div><small class="text-muted graph-legend today-bar">Чт</small></div>
+                    <div class="bar-single">
+                        <div class="bar-col lessons-five-gradient" style="height: 150px;background: linear-gradient(0deg, rgba(255,193,7,1) 16%, rgba(220,53,69,1) 54%, rgba(23,162,184,1) 100%);"><small class="d-md-flex lessons-mark-chart">5</small></div><small class="text-muted graph-legend">Пт</small></div>
+                    <div class="bar-single bar-last">
+                        <div class="bar-col test-a" style="height: 120px;background-color: #c51a10;"><small class="d-md-flex lessons-mark-chart">4</small></div><small class="text-muted graph-legend">Сб</small></div>
+                </div>
+                <div class="d-flex justify-content-center lessons-legend"><span class="badge badge-info mr-1 lecture-badge-muted">Лекции</span><span class="badge badge-danger mr-1 lab-badge-muted">Лабы</span><span class="badge badge-warning mr-1 seminar-badge-muted">Secret</span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
